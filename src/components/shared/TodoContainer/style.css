@@ -1,0 +1,4 @@
+.todo-container ul {
+    display: flex;
+    flex-direction: column-reverse;
+}

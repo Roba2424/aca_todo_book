@@ -1,0 +1,16 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 3px solid #dadada;
+}
+
+.todo-item button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+}
