@@ -1,4 +1,9 @@
 .todo-container ul {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.todo-container ul h2 {
+  text-align: center;
+  margin: 40px 0;
 }

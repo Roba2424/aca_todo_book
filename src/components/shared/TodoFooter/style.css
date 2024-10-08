@@ -1,24 +1,32 @@
-.todo-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
+.todo-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
 }
 
-.todo-add-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 30px;
-    margin: 10px 0;
+.hide-checkbox {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  text-align: center;
 }
 
-.todo-add-container input{
-    border:1px solid #ccc
+.todo-add-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin: 10px 0;
 }
 
-.todo-add-container button{
-    width: 50px;
-    border: none;
-    cursor: pointer;
+.todo-add-container input {
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+.todo-add-container button {
+  width: 50px;
+  border: none;
+  cursor: pointer;
 }
